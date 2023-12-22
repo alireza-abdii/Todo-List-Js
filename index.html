@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="todolist-container">
+        <section class="todolist-header">
+            <h1 class="todolist-title">To-Do List</h1>
+        </section>
+
+        <section class="todolist-additem">
+            <input type="text" id="todo-newitem" placeholder="New Item">
+            <div class="todolist-btns">
+                <button id="additem-btn">Add Item</button>
+                <button id="clearitem-btn">Clear Todo List</button>
+            </div>
+        </section>
+
+        <ul id="todolist-items">
+            <li class="todolist-item"> 
+                <span class="todoitem-title">reading book</span>
+                <div class="btn-container">
+                    <button class="edit-btn"><i class="fas fa-pen"></i></button>
+                    <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </li>
+            <li class="todolist-item">
+                <span class="todoitem-title">learning Js</span>
+                <div class="btn-container">
+                    <button class="edit-btn"><i class="fas fa-pen"></i></button>
+                    <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </li>
+            <li class="todolist-item">
+                <span class="todoitem-title">do homeworks</span>
+                <div class="btn-container">
+                    <button class="edit-btn"><i class="fas fa-pen"></i></button>
+                    <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body
+</html>
